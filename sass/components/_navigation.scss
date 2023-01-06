@@ -2,11 +2,11 @@
   display: flex;
   align-items: center;
 
-  .navigation__nav-item {
-    display: flex;
+  .navigation__nav-item:not(:last-child) {
+    margin-right: 50px;
 
-    &__nav-item:not(:last-child) {
-      margin-right: 50px;
+    .navigation__nav-item {
+      display: flex;
     }
   }
 

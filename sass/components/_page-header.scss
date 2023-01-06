@@ -1,8 +1,9 @@
 .page-header {
   border-bottom: 1px solid #ececec;
 
-  .page-header__box {
+  &__box {
     display: flex;
     align-items: center;
   }
 }
+

@@ -147,12 +147,17 @@ button {
   outline: none;
 } */
 
-.page-header__contact {
+/* .page-header__contact {
   display: flex;
   align-items: center;
   margin-left: auto;
 }
 
+.icon-contact {
+  fill: currentColor;
+  vertical-align: middle;
+  margin-right: 10px;
+}
 .item-contact:not(:last-child) {
   margin-right: 50px;
 }
@@ -168,13 +173,7 @@ button {
 .contact:focus {
   color: var(--brand-color-blue);
   outline: transparent;
-}
-
-.icon-contact {
-  fill: currentColor;
-  vertical-align: middle;
-  margin-right: 10px;
-}
+} */
 
 /* .studio-color-header {
   color: var(--brand-color-black);
