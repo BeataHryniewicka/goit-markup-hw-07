@@ -115,7 +115,7 @@ button {
   margin-right: 50px;
 }
 
-/* .nav-link {
+.nav-link {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -124,18 +124,18 @@ button {
   display: flex;
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
+}
 
-/* .nav-link:hover,
+.nav-link:hover,
 .nav-link:focus {
   color: var(--brand-color-blue);
-} */
+}
 
-/* .link-current {
+.link-current {
   color: var(--brand-color-blue);
-} */
+}
 
-/* .link-current::after {
+.link-current::after {
   content: "";
   position: absolute;
   bottom: -34px;
@@ -151,7 +151,7 @@ button {
 .link-current:focus {
   color: var(--brand-color-blue);
   outline: none;
-} */
+}
 
 .contact {
   color: var(--brand-color-grey);
