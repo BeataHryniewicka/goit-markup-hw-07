@@ -1,10 +1,10 @@
-/* body {
+body {
   font-family: "Roboto", sans-serif;
   background-color: var(--brand-color-white);
   color: var(--brand-color-dark-grey);
   font-size: 14px;
   letter-spacing: 0.03em;
-} */
+}
 
 h1,
 h2,
@@ -68,11 +68,11 @@ button {
   --brand-color-icon: #afb1b8;
 } */
 
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
-}
+} */
 
 .topper {
   border-bottom: 1px solid #ececec;
