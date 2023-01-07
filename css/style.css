@@ -541,14 +541,14 @@ address {
 }
 
 /* portfolio */
-.label-btn {
+/* .label-portfolio-btn {
   display: flex;
   gap: 8px;
   margin-bottom: 56px;
   justify-content: center;
-}
+} */
 
-.filters-btn {
+/* .portfolio-btn {
   font-weight: 500;
   background-color: var(--brand-color-light-grey);
   font-size: 16px;
@@ -564,13 +564,13 @@ address {
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filters-btn:hover,
-.filters-btn:focus {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
   background-color: var(--brand-color-blue);
   color: var(--brand-color-white);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-}
+} */
 
 /* karty portfolio */
 .cards {
