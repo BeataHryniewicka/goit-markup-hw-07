@@ -231,7 +231,9 @@ button {
   padding: 10px 41px;
 }
 
-.visually-hidden {
+/* Values/technologies */
+
+/* .values__header {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -243,8 +245,11 @@ button {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.values__list {
+  display: flex;
+  gap: 30px;
+}
 
-/* lorem ipsum section */
 .technologies {
   background-color: var(--brand-color-light-grey);
   height: 120px;
@@ -256,13 +261,8 @@ button {
   fill: var(--brand-color-dark-grey);
 }
 
-/* lorem section */
-.lorem-list {
-  display: flex;
-  gap: 30px;
-}
 
-.lorem-tittle {
+.technologies__tittle {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -271,22 +271,23 @@ button {
   font-size: 14px;
 }
 
-.lorem-description {
+.technologies__description {
   text-align: left;
   color: var(--brand-color-grey);
   line-height: 1.71;
-}
+} */
+
 /* work section */
-.work {
+/* .work {
   padding-top: 0;
 }
 
-.work__work-list {
+.work__list {
   display: flex;
   gap: 30px;
 }
 
-.work__work-tittles {
+.work__tittles {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.16;
@@ -295,11 +296,11 @@ button {
   margin-bottom: 50px;
 }
 
-.work__box-overlay-work {
+.work__box-overlay {
   position: relative;
 }
 
-.work__text-overlay-work {
+.work__text-overlay {
   text-transform: uppercase;
   color: var(--brand-color-white);
   font-weight: 700;
@@ -312,10 +313,10 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 /* our team  */
-.team {
+/* .team {
   text-align: center;
   background-color: var(--brand-color-light-grey);
 }
@@ -325,6 +326,7 @@ button {
   gap: 30px;
 }
 
+ 
 .team-item {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -379,7 +381,7 @@ button {
   background-color: var(--brand-color-blue);
   color: var(--brand-color-white);
   outline: transparent;
-}
+} */
 
 /* our clients */
 .clients {
