@@ -231,7 +231,7 @@ button {
   padding: 10px 41px;
 }
 
-.visually-hidden {
+/* .technologies-header-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -242,10 +242,10 @@ button {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
+} */
+/* 
 /* lorem ipsum section */
-.technologies {
+/* .technologies {
   background-color: var(--brand-color-light-grey);
   height: 120px;
   display: flex;
@@ -256,13 +256,12 @@ button {
   fill: var(--brand-color-dark-grey);
 }
 
-/* lorem section */
-.lorem-list {
+Technologies
+.technologies_list {
   display: flex;
-  gap: 30px;
-}
+  gap: 30px;}
 
-.lorem-tittle {
+.technologies__tittle {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -271,23 +270,23 @@ button {
   font-size: 14px;
 }
 
-.lorem-description {
+.technologies__description {
   text-align: left;
   color: var(--brand-color-grey);
   line-height: 1.71;
-}
+} 
 
 /* work section */
 .work {
   padding-top: 0;
 }
 
-.work-list {
+.work__work-list {
   display: flex;
   gap: 30px;
 }
 
-.second-tittles {
+.work__work-tittles {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.16;
@@ -296,11 +295,11 @@ button {
   margin-bottom: 50px;
 }
 
-.box-overlay-work {
+.work__box-overlay-work {
   position: relative;
 }
 
-.text-overlay-work {
+.work__text-overlay-work {
   text-transform: uppercase;
   color: var(--brand-color-white);
   font-weight: 700;
