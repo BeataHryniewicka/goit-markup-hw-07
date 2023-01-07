@@ -495,11 +495,11 @@ address {
   background-color: var(--brand-color-bg-footer-icon);
 }
 
-.newsletter-section {
+/* .newsletter {
   margin-left: auto;
 }
 
-.newsletter-text {
+.newsletter__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -507,13 +507,13 @@ address {
   color: var(--brand-color-white);
 }
 
-.newsletter-part {
+.newsletter__part {
   margin-top: 20px;
   display: flex;
   position: relative;
 }
 
-.newsletter-input {
+.newsletter__input {
   padding-left: 16px;
   width: 358px;
   height: 50px;
@@ -527,18 +527,18 @@ address {
   line-height: 1.25;
   letter-spacing: 0.03em;
   outline: transparent;
-}
+} */
 
 /* .newsletter-btn {
   text-align: left;
 } */
 
-.newsletter-svg {
+/* .main-btn__svg {
   position: absolute;
   fill: var(--brand-color-white);
   bottom: 12px;
   right: 20px;
-}
+} */
 
 /* portfolio */
 /* .label-portfolio-btn {
@@ -547,8 +547,8 @@ address {
   margin-bottom: 56px;
   justify-content: center;
 } */
-
-/* .portfolio-btn {
+/* 
+.portfolio-btn {
   font-weight: 500;
   background-color: var(--brand-color-light-grey);
   font-size: 16px;
