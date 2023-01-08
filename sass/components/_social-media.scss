@@ -4,6 +4,10 @@
   justify-content: center;
   margin-top: 16px;
 
+  &--under {
+    background-color: var(--brand-color-bg-footer-icon);
+  }
+
   &__link {
     color: var(--brand-color-icon);
     border-radius: 50%;
@@ -25,5 +29,4 @@
     color: var(--brand-color-white);
     outline: transparent;
   }
-
 }

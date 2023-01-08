@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: "Roboto", sans-serif;
   background-color: var(--brand-color-white);
   color: var(--brand-color-dark-grey);
@@ -35,7 +35,7 @@ a {
 
 address {
   font-style: normal;
-}
+} */
 
 /* button {
   display: block;
@@ -491,9 +491,9 @@ address {
   color: var(--brand-color-white);
 }
 
-.under {
+/* .under {
   background-color: var(--brand-color-bg-footer-icon);
-}
+} */
 
 /* .newsletter {
   margin-left: auto;
@@ -614,7 +614,7 @@ address {
 
 .cards-list:hover .overlay,
 .cards-list:focus .overlay {
-  transform: translateY(0%);
+transform: translateY(0%);
 }
 
 .overlay > p {
@@ -645,6 +645,7 @@ address {
   text-align: left;
   color: var(--brand-color-grey);
 }
+
 
 /* modal windows */
 .backdrop {
