@@ -415,23 +415,24 @@ address {
 } */
 
 /* footer */
-.background-dark {
-  background-color: var(--brand-color-background-black);
-  padding: 200px 0;
-}
 
+/* 
 .footer {
   padding: 60px 0;
 }
 
-.container-right {
+.footer__bgd {
+  background-color: var(--brand-color-background-black);
+  padding: 200px 0;
+}
+.container__footer {
   display: flex;
   align-items: baseline;
 }
 
-.footer-container {
+.footer__address {
   margin-right: 70px;
-}
+} */
 
 /* .address-data {
   font-style: normal;
@@ -483,13 +484,13 @@ address {
   color: var(--brand-color-blue);
 } */
 
-.join-us-tittle {
+/* .footter__social-media-toppper {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
   font-size: 14px;
   color: var(--brand-color-white);
-}
+} */
 
 /* .under {
   background-color: var(--brand-color-bg-footer-icon);
