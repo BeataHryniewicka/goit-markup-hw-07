@@ -573,31 +573,31 @@ address {
 } */
 
 /* karty portfolio */
-.cards {
+/* .cards {
   display: flex;
   flex-wrap: wrap;
   row-gap: 30px;
   column-gap: 30px;
 }
 
-.cadrs-list {
+.cadrs__link {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.cards-list:hover,
-.cards-list:focus {
+.cards__link:hover,
+.cards__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   display: block;
   outline: transparent;
 }
 
-.box-overlay {
+.cards__box-overlay {
   position: relative;
   overflow: hidden;
 }
 
-.overlay {
+.cards__overlay {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -612,12 +612,12 @@ address {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.cards-list:hover .overlay,
-.cards-list:focus .overlay {
+.cards__link:hover .cards__overlay,
+.cards__link:focus .cards__overlay {
 transform: translateY(0%);
 }
 
-.overlay > p {
+.cards__overlay-text {
   font-size: 18px;
   line-height: 1.75;
   color: var(--brand-color-white);
@@ -629,7 +629,7 @@ transform: translateY(0%);
   border: 1px solid #eeeeee;
 }
 
-.kind-of-services {
+.services__kind {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
@@ -639,12 +639,12 @@ transform: translateY(0%);
   color: var(--brand-color-dark-grey);
 }
 
-.group-of-services {
+.services__group {
   font-size: 16px;
   line-height: 1.87;
   text-align: left;
   color: var(--brand-color-grey);
-}
+} */
 
 
 /* modal windows */
