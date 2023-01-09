@@ -5,7 +5,8 @@
   position: fixed;
   top: 0;
   left: 0;
-  transition: $transition;}
+  transition: $transition;
+}
 
 .modal-box {
   position: absolute;
@@ -64,13 +65,12 @@
     letter-spacing: 0.01em;
     color: var(--brand-color-dark-grey);
     margin-top: 10px;
-  transition: $transition-color;
+    transition: $transition;
   }
 
   .modal-form__label:hover,
   .modal-form__:focus {
     fill: var(--brand-color-blue);
-       
   }
 
   .modal-form__input {
@@ -83,7 +83,7 @@
     height: 40px;
     color: var(--brand-color-grey);
     outline: transparent;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: $transition;
   }
 
   .modal-form__input:focus,

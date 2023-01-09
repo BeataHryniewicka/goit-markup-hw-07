@@ -19,14 +19,15 @@
         .team-presentaction__name {
           line-height: 1.18;
           font-size: 16px;
-          color: var(--brand-color-grey);
+          color: var(--brand-color-dark-grey);
           letter-spacing: 0.03em;
-          margin-top: 10px;
+          margin-bottom: 10px;
         }
         .team-presentaction__function {
           font-weight: 500;
           font-size: 16px;
           line-height: 1.18;
+          color: var(--brand-color-grey)
         }
       }
     }
